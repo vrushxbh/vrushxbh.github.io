@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js'></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Audi-Yo!</h1>
+    <video width="720" height="560" autoplay muted></video>
+    <textarea data-text style="font-size: 1rem; font-family: inherit; width: 100%; white-space: pre-wrap;" id="text" disabled></textarea>
+    <label for="speed">Speed</label>
+    <input type="number" name="speed" id="speed" min=".5" max="3" step=".5" value="1">
+    <button id="play-button">Play</button>
+    <button id="pause-button">Pause</button>
+    <button id="stop-button">Stop</button>
+</body>
+</html>
